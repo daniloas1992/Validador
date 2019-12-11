@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informe_cnpj"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin10dp"
+        android:layout_marginTop="@dimen/margin10dp"
+        android:textSize="@dimen/tam30sp"/>
+
+    <EditText
+        android:id="@+id/txtCNPJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin30dp"
+        android:hint="@string/digite_aqui"
+        android:inputType="number"
+        android:maxLength="14"/>
+
+    <Button
+        android:id="@+id/btnValidarCNPJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/validar"
+        android:layout_margin="@dimen/margin30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvResultadoCNPJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin30dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/tam20sp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnVoltarCNPJ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:layout_margin="@dimen/margin30dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

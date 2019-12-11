@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Validador</string>
+    <string name="informe_cpf">Informe o número do CPF:</string>
+    <string name="informe_cnpj">Informe o número do CNPJ:</string>
+    <string name="digite_aqui">Digite aqui...</string>
+    <string name="digite_cpf">Digite o número do cpf!</string>
+    <string name="digite_cnpj">Digite o número do CNPJ!</string>
+    <string name="validarCPF">Validar CPF</string>
+    <string name="validarCNPJ">Validar CNPJ</string>
+    <string name="validar">Validar</string>
+    <string name="limpar">Limpar</string>
+    <string name="voltar">Voltar</string>
+    <string name="selecione">Selecione uma opção:</string>
+</resources>
